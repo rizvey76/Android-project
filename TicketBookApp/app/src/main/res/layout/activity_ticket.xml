@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="282dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/resize" />
+
+        <LinearLayout
+            android:layout_marginTop="10sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_gravity="center"
+                android:layout_width="130sp"
+                android:textSize="15sp"
+                android:layout_height="wrap_content"
+                android:text="Passenger's Ticket"
+                android:textColor="@color/red_100"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textNid"
+            android:layout_gravity="center"
+            android:layout_width="130sp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="Passenger's Nid"
+            android:textColor="@color/red_100"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"
+            android:layout_gravity="left"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="@string/app_Passenger" />
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="Name:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="Name"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/Address"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="Address:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textAddress"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="Address"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/Phone"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="Phone:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textPhone"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="Phone"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/teService"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="160sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="Type of Service:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textService"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="Service"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/teFrom"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="From:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textFrom"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="From"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:id="@+id/teTo"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="To:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textTo"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="To"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/teBus"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="Bus No:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textBusNo"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="BusNo"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/teDeparture"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="30sp"
+            android:layout_gravity="left"
+            android:layout_width="280sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red_200"
+            android:text=" Departure___________________"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="7sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/teDetime"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text=" Date:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textDate"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="Date"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/teTime"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="5sp"
+                android:layout_gravity="left"
+                android:layout_width="55sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="Time:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textTime"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="Time"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/teSet"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="90sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="Seat No:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textSeat"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="SeatNo"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/teAmount"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="30sp"
+                android:layout_gravity="left"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red_100"
+                android:text="Total Amount:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:id="@+id/textAmount"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="left"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="Amount"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/textTaka"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="5sp"
+                android:layout_gravity="left"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="TK"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="8sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            >
+
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="150sp"
+                android:layout_marginLeft="35sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0sp"
+                android:background="@color/red_100"
+                android:text="Cancel"
+                app:backgroundTint="@color/red_100" />
+
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="25sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0sp"
+                android:background="@color/red_200"
+                android:text="Confirm"
+                app:backgroundTint="@color/red_200" />
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

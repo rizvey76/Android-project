@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BusTicketApplication</string>
+    <string name="app_text1"><b><i>Committed To Safe Journey</i></b></string>
+    <string name="app_Service"><b><u>Our Services </u></b></string>
+    <string name="app_Passenger"><b><u>Informations:</u></b></string>
+    <string name="app_Coach"><b><u>Select Your Coach:</u></b></string>
+    <string name="app_Time"><b><u>Select Departure Time And Date:</u></b></string>
+    <string name="app_Destination"><b><u>Select Destination:</u></b></string>
+
+    <string name="app_Name"><b>Enter Name:</b></string>
+    <string name="app_Address"><b>Enter Address:</b></string>
+    <string name="app_Phone"><b>Enter Phone No:</b></string>
+    <string name="app_Email"><b>Enter Email:</b></string>
+    <string name="app_NID"><b>Enter NID:</b></string>
+
+    <string name="app_Pay"><b><u>Payment options by online banking:</u></b></string>
+
+
+    <string-array name="items_class">
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+
+    </string-array>
+
+
+    <string-array name="items_class1">
+        <item>Chittagong</item>
+        <item>Dhaka</item>
+    </string-array>
+
+
+    <string-array name="items_Time">
+        <item>6:00 AM</item>
+        <item>7:00 AM</item>
+        <item>10:00 PM</item>
+        <item>11:30 PM</item>
+
+    </string-array>
+
+    <string-array name="items_Date">
+        <item>11/2/2021</item>
+        <item>12/2/2021</item>
+        <item>13/2/2021</item>
+        <item>14/2/2021</item>
+
+    </string-array>
+</resources>

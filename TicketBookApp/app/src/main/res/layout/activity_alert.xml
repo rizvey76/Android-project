@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="10sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="188dp"
+            android:layout_height="177dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/kash" />
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/textUser"
+
+                android:layout_marginLeft="45sp"
+                android:layout_gravity="left"
+                android:layout_width="105sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="User Name:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="180sp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/textPass"
+
+                android:layout_marginLeft="45sp"
+                android:layout_gravity="left"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="Password:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/editPass"
+                android:layout_width="180sp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/textA"
+
+                android:layout_marginLeft="45sp"
+                android:layout_gravity="left"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="Amount:"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/editAmount"
+                android:layout_width="180sp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/textPin"
+
+                android:layout_marginLeft="45sp"
+                android:layout_gravity="left"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/brown"
+                android:text="PIN :"
+                android:textStyle="bold|italic"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/editPin"
+                android:layout_width="205sp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="15sp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+
+
+
+
+
+
+
+<!--        </LinearLayout>-->
+
+
+
+
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="15sp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+
+
+
+
+
+
+
+
+
+
+<!--        </LinearLayout>-->
+
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="15sp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+
+
+
+
+
+
+
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="7sp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            >-->
+
+
+
+
+
+
+
+
+
+
+<!--        </LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="8sp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            >
+
+
+            <Button
+                android:id="@+id/btnPay"
+                android:layout_width="150sp"
+                android:layout_height="40sp"
+                android:layout_marginLeft="120sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0sp"
+                android:background="@color/red_200"
+                android:text="Pay"
+
+                app:backgroundTint="@color/red_100" />
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textNames"
+
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:visibility="invisible"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="Name"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/textAddresss"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="Address"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/textPhones"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="Phone"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textServices"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="Service"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textFroms"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="From"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textTos"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="To"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/textBusNos"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="BusNo"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textDates"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="Date"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/textTimes"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="Time"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/textSeats"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="SeatNo"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/textAmounts"
+            android:visibility="invisible"
+            android:layout_marginLeft="10sp"
+            android:layout_gravity="left"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brown"
+            android:text="Amount"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

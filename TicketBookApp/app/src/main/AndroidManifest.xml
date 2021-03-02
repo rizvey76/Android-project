@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.busticketapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BusTicketApplication">
+        <activity android:name=".PrintActivity"></activity>
+        <activity android:name=".AlertActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".TicketActivity" />
+        <activity android:name=".SetPlaneActivity" />
+        <activity android:name=".CoachActivity" />
+        <activity android:name=".PassengerActivity" />
+        <activity android:name=".ServicesActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

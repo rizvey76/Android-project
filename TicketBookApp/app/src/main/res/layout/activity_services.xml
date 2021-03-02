@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        app:srcCompat="@drawable/resize" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="180sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red_200"
+        android:text="@string/app_Service"
+        android:textSize="30sp"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnCht"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Dhaka to Chittagong / Chittagong to Dhaka"
+        app:backgroundTint="@color/red_200" />
+
+    <Button
+        android:id="@+id/btnKhu"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Dhaka to khulna / khulna to Dhaka"
+        app:backgroundTint="@color/red_200" />
+
+    <Button
+        android:id="@+id/btnSyl"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Dhaka to sylhet / sylhet to Dhaka"
+        app:backgroundTint="@color/red_200" />
+
+    <Button
+        android:id="@+id/btnRaj"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="Dhaka to Rajshahi / Rajshahi to Dhaka"
+        app:backgroundTint="@color/red_200" />
+
+</LinearLayout>
